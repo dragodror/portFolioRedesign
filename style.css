@@ -99,11 +99,25 @@ main {
 }
 .text-area{
     background-color: var(--tertriary-color);
-    margin-top: 3vw;
+    margin-top: 2vw;
     width: 30vw;
     height: auto;
+   
 }
 .info-text{
     margin: 3vw;
-    color: wheat;
+    color: rgb(243, 233, 216);
+}
+.current-page{
+    position: fixed;
+    right: 35vw;
+    top: 2vh;
+    text-align: center;
+    color: rgb(222, 203, 168, 1);
+    font-size: 2vw;
+    border-radius: 2vw;
+    width: 5vw;
+    padding: 2vw;
+    background-color: var(--acent-color-toned);
+    opacity: 0.75;
 }
